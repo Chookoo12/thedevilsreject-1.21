@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "thedevilsreject",
+	"version": "${version}",
+	"name": "thedevilsreject",
+	"description": "This mod adds a custom weapon.",
+	"authors": [
+		"Chookoo!"
+	],
+	"contact": {
+		"homepage": "https://chookoo.net",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/thedevilsreject/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.chookoo.thedevilsreject.Thedevilsreject"
+		],
+		"fabric-datagen": [
+			"net.chookoo.thedevilsreject.ThedevilsrejectDataGenerator"
+		],
+		"client": [
+			"net.chookoo.thedevilsreject.ThedevilsrejectClient"
+		]
+	},
+	"mixins": [
+		"thedevilsreject.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
