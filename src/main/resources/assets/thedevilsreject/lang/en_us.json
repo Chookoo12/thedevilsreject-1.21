@@ -1,0 +1,13 @@
+{
+  "item.thedevilsreject.question_mark": "?",
+  "tooltip.thedevilsreject.question_mark.tooltip": "See the bigger pictu§c??§r.",
+  "item.thedevilsreject.mysterious_shaft": "Mysterious Shaft",
+  "tooltip.thedevilsreject.mysterious_shaft": "This shaft looks like it was once something great.",
+  "block.thedevilsreject.question_mark_block": "??",
+  "tooltip.thedevilsreject.question_mark_block.tooltip": "This can be compacted.",
+
+  "itemgroup.thedevilsreject.the_devils_reject_items": "The Devils Reject Items",
+
+  "block.thedevilsreject.question_mark_block2": "???",
+  "tooltip.thedevilsreject.question_mark_block2.tooltip": "This block is unbreakable and §c???§r."
+}
